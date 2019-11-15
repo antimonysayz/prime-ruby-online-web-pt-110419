@@ -3,7 +3,7 @@ def prime?(number)
         return false
     end
     i=2
-	while(i<num)
+	while(i < num)
 		if (num%i==0)
 			count+=1
 		end
@@ -11,11 +11,10 @@ def prime?(number)
 	end
 	
 end
-	if count>1
+	if i>1
 		false
 	else
 		true
 	end
-end
 
 prime?(1763)
