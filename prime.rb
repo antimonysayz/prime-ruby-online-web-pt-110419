@@ -13,7 +13,7 @@ else
 	end
 	
 end
-	if count == 0
+	if count == 0 || num < 0
 		true
 	else
 		false
