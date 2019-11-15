@@ -1,14 +1,17 @@
-def prime?(num)
-  if number <= 0 || number == 1
-    false
-  i = 2
-  while i < (num - 1)
-  if num % i == 0
-    false
+def isPrime(number)
+    if number == 0 or number == 1
+        return false
     end
-  i +=1
-  end
-  true
+    i = 2
+    limit = number / i
+    while i < limit
+        if number % i == 0
+            return false
+        end
+        i += 1
+        limit = number / i
+    end
+    return true
 end
 
-prime?(1763)
+isPrime(1763)
