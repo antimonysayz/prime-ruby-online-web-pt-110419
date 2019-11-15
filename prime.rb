@@ -13,9 +13,9 @@ else
 	end
 	
 end
-	if count != 0
-		false
-	else
+	if count == 0
 		true
+	else
+		false
 	end
 end
