@@ -1,6 +1,6 @@
 def prime?(num)
 count=0
-if num <= 0 || num == 1
+if num <= 0 || num == 1 || num < 0
 	false
 else
 	
