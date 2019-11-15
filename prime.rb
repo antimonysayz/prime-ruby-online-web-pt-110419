@@ -1,4 +1,4 @@
-def isPrime(number)
+def prime?(number)
     if number == 0 or number == 1
         return false
     end
@@ -14,4 +14,4 @@ def isPrime(number)
     return true
 end
 
-isPrime(1763)
+prime?(1763)
